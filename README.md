@@ -7,4 +7,4 @@ Evento NLW Expert - Trilha HTML+CSS+JS:
 - CSS
 - JavaScript
 - Github
-- IA
+- IA (Perguntas)
