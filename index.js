@@ -1,111 +1,93 @@
 const perguntas = [
     {
-        pergunta: "Qual é o signo do zodíaco associado ao elemento fogo?",
+        pergunta: "O que é JavaScript?",
         respostas: [
-            "Áries",
-            "Escorpião",
-            "Leão"
+            "Um banco de dados",
+            "Uma linguagem de programação",
+            "Um sistema operacional"
+        ],
+        correta: 1 
+    },
+    {
+        pergunta: "Qual é a sintaxe correta para declarar uma variável em JavaScript?",
+        respostas: [
+            "variavel = valor",
+            "variable nome = valor",
+            "var nome = valor"
+        ],
+        correta: 2 
+    }
+    {
+        pergunta: "Qual é a função do método 'getElementById()'?",
+        respostas: [
+            "Alterar o estilo de um elemento HTML",
+            "Selecionar um elemento HTML por sua classe",
+            "Selecionar um elemento HTML por seu ID"
         ],
         correta: 2
     },
     {
-        pergunta: "Qual é o planeta regente do signo de Gêmeos?",
+        pergunta: "O que significa 'DOM' em JavaScript?",
         respostas: [
-            "Mercúrio",
-            "Marte",
-            "Vênus"
+            "Data Object Model",
+            "Document Object Model",
+            "Dynamic Object Method"
+        ],
+        correta: 1 
+    },
+    {
+        pergunta: "Qual é a função do operador '===' em JavaScript?",
+        respostas: [
+            "Comparação estrita",
+            "Atribuição",
+            "Comparação não estrita"
+        ],
+        correta: 0 
+    },
+    {
+        pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
+        respostas: [
+            "append()",
+            "push()",
+            "concat()"
+        ],
+        correta: 1 
+    },
+    {
+        pergunta: "O que o método 'forEach()' faz em JavaScript?",
+        respostas: [
+            "Itera sobre os elementos de um array",
+            "Remove elementos de um array",
+            "Transforma todos os elementos de um array em um único elemento"
         ],
         correta: 0
     },
     {
-        pergunta: "Qual signo é conhecido por ser o mais teimoso?",
+        pergunta: "Qual é a função do método 'toFixed()' em JavaScript?",
         respostas: [
-            "Aquário",
-            "Leão",
-            "Touro"
+            "Arredonda um número para o inteiro mais próximo",
+            "Formata um número com um número específico de casas decimais",
+            "Retorna o menor número inteiro maior ou igual a um número"
         ],
-        correta: 2
+        correta: 1 
     },
     {
-        pergunta: "Qual é o elemento associado ao signo de Peixes?",
+        pergunta: "Qual é a forma correta de escrever um comentário de uma linha em JavaScript?",
         respostas: [
-            "Terra",
-            "Ar",
-            "Água"
+            "// Comentário de uma linha",
+            "<!-- Comentário de uma linha -->",
+            "/* Comentário de uma linha */"
         ],
-        correta: 2
+        correta: 0 
     },
     {
-        pergunta: "Qual signo do zodíaco é representado pelo arqueiro?",
+        pergunta: "Qual é o resultado de 'typeof null' em JavaScript?",
         respostas: [
-            "Capricórnio",
-            "Sagitário",
-            "Libra"
+            "Null",
+            "Undefined",
+            "Object"
         ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é o animal associado ao signo de Virgem?",
-        respostas: [
-            "Cachorro",
-            "Sereia",
-            "Gato"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual signo é conhecido por sua dualidade?",
-        respostas: [
-            "Touro",
-            "Libra",
-            "Aquário"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Qual é o planeta regente do signo de Libra?",
-        respostas: [
-            "Vênus",
-            "Júpiter",
-            "Saturno"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o elemento associado ao signo de Áries?",
-        respostas: [
-            "Fogo",
-            "Terra",
-            "Água"
-        ],
-        correta: 0
-    },
-    {
-        pergunta: "Qual é o signo do zodíaco associado à comunicação?", 
-        respostas: [
-            "Virgem",
-            "Aquário",
-            "Gêmeos"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "Qual é o animal associado ao signo de Câncer?",
-        respostas: [
-            "Tigre",
-            "Caranguejo",
-            "Leão"
-        ],
-        correta: 1
-    },
-    { 
-        pergunta: "Qual é o elemento associado ao signo de Capricórnio?",
-        respostas: [
-            "Ar",
-            "Terra",
-            "Fogo"
-        ],
-        correta: 1
+        correta: 2 
     }
 ];
 
