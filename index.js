@@ -6,7 +6,7 @@ const perguntas = [
             "Uma linguagem de programação",
             "Um sistema operacional"
         ],
-        correta: 1 
+        correta: 1 // "Uma linguagem de programação" é a resposta correta
     },
     {
         pergunta: "Qual é a sintaxe correta para declarar uma variável em JavaScript?",
@@ -15,8 +15,8 @@ const perguntas = [
             "variable nome = valor",
             "var nome = valor"
         ],
-        correta: 2 
-    }
+        correta: 2 // "var nome = valor" é a resposta correta
+    },
     {
         pergunta: "Qual é a função do método 'getElementById()'?",
         respostas: [
@@ -24,7 +24,7 @@ const perguntas = [
             "Selecionar um elemento HTML por sua classe",
             "Selecionar um elemento HTML por seu ID"
         ],
-        correta: 2
+        correta: 2 // "Selecionar um elemento HTML por seu ID" é a resposta correta
     },
     {
         pergunta: "O que significa 'DOM' em JavaScript?",
@@ -33,7 +33,7 @@ const perguntas = [
             "Document Object Model",
             "Dynamic Object Method"
         ],
-        correta: 1 
+        correta: 1 // "Document Object Model" é a resposta correta
     },
     {
         pergunta: "Qual é a função do operador '===' em JavaScript?",
@@ -42,7 +42,7 @@ const perguntas = [
             "Atribuição",
             "Comparação não estrita"
         ],
-        correta: 0 
+        correta: 0 // "Comparação estrita" é a resposta correta
     },
     {
         pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
@@ -51,7 +51,7 @@ const perguntas = [
             "push()",
             "concat()"
         ],
-        correta: 1 
+        correta: 1 // "push()" é a resposta correta
     },
     {
         pergunta: "O que o método 'forEach()' faz em JavaScript?",
@@ -60,7 +60,7 @@ const perguntas = [
             "Remove elementos de um array",
             "Transforma todos os elementos de um array em um único elemento"
         ],
-        correta: 0
+        correta: 0 // "Itera sobre os elementos de um array" é a resposta correta
     },
     {
         pergunta: "Qual é a função do método 'toFixed()' em JavaScript?",
@@ -69,7 +69,7 @@ const perguntas = [
             "Formata um número com um número específico de casas decimais",
             "Retorna o menor número inteiro maior ou igual a um número"
         ],
-        correta: 1 
+        correta: 1 // "Formata um número com um número específico de casas decimais" é a resposta correta
     },
     {
         pergunta: "Qual é a forma correta de escrever um comentário de uma linha em JavaScript?",
@@ -78,7 +78,7 @@ const perguntas = [
             "<!-- Comentário de uma linha -->",
             "/* Comentário de uma linha */"
         ],
-        correta: 0 
+        correta: 0 // "// Comentário de uma linha" é a resposta correta
     },
     {
         pergunta: "Qual é o resultado de 'typeof null' em JavaScript?",
@@ -87,7 +87,7 @@ const perguntas = [
             "Undefined",
             "Object"
         ],
-        correta: 2 
+        correta: 2 // "Object" é a resposta correta
     }
 ];
 
